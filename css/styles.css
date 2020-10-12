@@ -1,0 +1,37 @@
+:root{
+    --set-green: #BBCEA8;
+    --set-grey: #393946;
+    --set-lit-grey: #696773;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: none;
+}
+
+body{
+    background-color: var(--set-green);
+}
+
+/* NAVIGATION CSS */
+
+/* ABOUT CSS */
+
+#about{
+}
+
+#avatar{
+    width: 50%;
+
+}
+
+#tools{
+    color: var(--set-grey);
+}
+
+.icons{
+    width: 30px;
+}
+
+/* ABOUT CSS */
