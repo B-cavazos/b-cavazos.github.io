@@ -1,0 +1,71 @@
+:root{
+    --set-green: #BBCEA8;
+    --set-grey: #393946;
+    --set-lit-grey: #696773;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: none;
+}
+
+body{
+    background-color: var(--set-green);
+}
+
+/* NAVIGATION CSS */
+
+/* ABOUT CSS */
+
+#about{
+}
+
+#avatar{
+    width: 50%;
+
+}
+
+/* <!-- TOOLS CSS --> */
+
+#tools{
+    color: var(--set-grey);
+}
+
+.icons{
+    width: 30px;
+    margin: auto;
+}
+
+
+/* PROJECTS CSS */
+#projects{}
+
+#projects-web{}
+
+}
+
+#projects-design{
+
+}
+
+
+.projects{
+    background-color: #393946;
+    width: 70vw;
+    margin: 10px;
+
+}
+
+.project-image{
+    width: 70vw;
+}
+
+
+/* SOCIALS CSS */
+#socials{}
+
+
+
+/* CONTANCT CSS */
+#contact{}
