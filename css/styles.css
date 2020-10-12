@@ -21,9 +21,12 @@ body{
 #about{
 }
 
-#avatar{
-    width: 50%;
+#intro{
+}
 
+#avatar{
+    height:400px;
+    
 }
 
 /* <!-- TOOLS CSS --> */
