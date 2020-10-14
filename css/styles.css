@@ -23,7 +23,16 @@ h4{
 
 
 hr{
-    margin: 75px;
+    margin: 70px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;;
+
 }
 
 /* NAVIGATION CSS */
@@ -47,6 +56,9 @@ nav{
 #avatar{
     height:400px;
     
+}
+
+
 }
 
 /* <!-- TOOLS CSS --> */
@@ -151,6 +163,10 @@ nav{
 
 @media screen and (min-width: 480px) {
     
+    #bio{
+        max-width: 40%;;
+        margin-right: 300px;
+    }
 
     #tools{
         background-color: var(--set-pop-green);
@@ -169,7 +185,8 @@ nav{
     
     
     #projects{
-        padding: 100px 0px;
+        padding-top: 130px;
+        padding-bottom: 35px;
     }
 
 
