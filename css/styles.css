@@ -7,7 +7,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    overflow-x: none;
 }
 
 body{
@@ -107,7 +106,7 @@ nav{
         background-color: #96c26a;
         color: white;
         position: relative;
-        top:160px;
+        top:10px;
         border-radius: 5px;
         box-shadow: 2px 2px 9px rgba(0,0,0,.3);
     }
