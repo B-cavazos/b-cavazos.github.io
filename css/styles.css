@@ -1,7 +1,7 @@
 :root{
     --set-green: #BBCEA8;
     --set-grey: #393946;
-    --set-lit-grey: #696773;
+    --set-lit-grey: rgb(221,221,221);
 }
 
 *{
@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color: var(--set-green);
+    background-color: var(--set-lit-grey);
 }
 
 h3{
@@ -19,10 +19,14 @@ h3{
 }
 
 /* NAVIGATION CSS */
+nav{
+    background-color: var(--set-green);
+}
 
 /* ABOUT CSS */
 
 #about{
+    background-color: var(--set-green);
 }
 
 #intro{
@@ -36,17 +40,27 @@ h3{
 /* <!-- TOOLS CSS --> */
 
 #tools{
+    background-color: #96c26a;
     color: var(--set-grey);
+    position: relative;
+    top:150px;
+    border-radius: 5px;
 }
 
 .icons{
     width: 30px;
     margin: auto;
+    fill: var(--set-lit-grey);
 }
 
 
 /* PROJECTS CSS */
-#projects{}
+#projects{
+}
+
+#projects h3{
+    padding-top: 150px;
+}
 
 #projects-web{}
 
@@ -85,6 +99,13 @@ h3{
 
 @media screen and (min-width: 480px) {
     
+    .icons{
+        width: 40px;
+        margin-bottom: 40px;
+        fill: var(--set-lit-grey);
+    }
+
+
     .projects{
         background-color: #393946;
         width: 30%;
@@ -95,4 +116,8 @@ h3{
     .project-image{
         max-width: 100%;
     }
+
+
+
+
   }
