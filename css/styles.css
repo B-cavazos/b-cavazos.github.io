@@ -5,10 +5,6 @@
     --set-lit-grey: rgb(221,221,221);
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
 
 body{
     background-color: white;
@@ -23,6 +19,11 @@ h4{
     font-size: 12pt;
     font-weight: bolder;
     color: var(--set-greys);
+}
+
+
+hr{
+    margin: 75px;
 }
 
 /* NAVIGATION CSS */
@@ -123,6 +124,10 @@ nav{
     font-weight: bolder;
 }
 
+.glasses{
+    width: 50px;
+    margin-top: 25px;;
+}
 
 
 /* CONTANCT CSS */
@@ -180,8 +185,6 @@ nav{
         margin-bottom: 10px;
         box-shadow: 3px 2px 5px rgba(0,0,0,.2);
     }
-
-
 
 
   }
