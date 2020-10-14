@@ -1,45 +1,80 @@
 :root{
     --set-green: #BBCEA8;
+    --set-pop-green: #96c26a;
     --set-grey: #393946;
-    --set-lit-grey: #696773;
+    --set-lit-grey: rgb(221,221,221);
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-    overflow-x: none;
-}
 
 body{
-    background-color: var(--set-green);
+    background-color: white;
+}
+
+
+h3{
+    text-align: center;
+}
+
+h4{
+    font-size: 12pt;
+    font-weight: bolder;
+    color: var(--set-greys);
+}
+
+
+hr{
+    margin: 75px;
 }
 
 /* NAVIGATION CSS */
+nav{
+    background-color: var(--set-green);
+}
+
+
+
 
 /* ABOUT CSS */
+/* font-family: 'Permanent Marker', cursive; */
 
 #about{
+    background-color: var(--set-green);
+}
+
+#intro{
 }
 
 #avatar{
-    width: 50%;
-
+    height:400px;
+    
 }
 
 /* <!-- TOOLS CSS --> */
 
 #tools{
+    background-color: var(--set-pop-green);
     color: var(--set-grey);
+    position: relative;
+    top:75px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 9px rgba(0,0,0,.3);
 }
 
 .icons{
     width: 30px;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 
 /* PROJECTS CSS */
-#projects{}
+#projects{
+}
+
+#projects h3{
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
 
 #projects-web{}
 
@@ -51,21 +86,105 @@ body{
 
 
 .projects{
-    background-color: #393946;
     width: 70vw;
     margin: 10px;
+    border-radius: 5px;
 
 }
 
 .project-image{
     width: 70vw;
+    border-radius: 5px;
 }
 
 
-/* SOCIALS CSS */
-#socials{}
+.project-title{
+    color: var(--set-grey);
+    font-weight: bolder;
+    font-size: 16pt;
+    margin-top: 5px;
+}
 
+.project-subtitle{
+    margin-top: -18px;
+    font-size: 10pt;
+    color: var(--set-pop-green);
+
+}
+
+/* SOCIALS CSS */
+#socials{
+    color: var(--set-grey);
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#socials a{
+    color: var(--set-pop-green);
+    font-weight: bolder;
+}
+
+.glasses{
+    width: 50px;
+    margin-top: 25px;;
+}
 
 
 /* CONTANCT CSS */
 #contact{}
+
+
+
+/* FORM CSS */
+
+.btn{
+    background-color: var(--set-pop-green);
+    color: white;
+}
+
+.form-control{
+    border: solid 1px var(--set-lit-grey);
+}
+
+
+/* MEDIA QUEREY CSS */
+
+@media screen and (min-width: 480px) {
+    
+
+    #tools{
+        background-color: var(--set-pop-green);
+        color: white;
+        position: relative;
+        top:160px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 9px rgba(0,0,0,.3);
+    }
+    
+    .icons{
+        width: 50px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    
+    
+    #projects{
+        padding: 100px 0px;
+    }
+
+
+    .projects{
+        width: 30%;
+        margin: 10px;
+
+    }
+
+
+    .project-image{
+        max-width: 100%;
+        margin-bottom: 10px;
+        box-shadow: 3px 2px 5px rgba(0,0,0,.2);
+    }
+
+
+  }
