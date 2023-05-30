@@ -1,8 +1,6 @@
-# bootstrap-boilerplate
-
 ## ABOUT
-This page is a work in progress of a guided assignment from Geekwise. 
-As we work on this page we will be introduced to building responsive websites with Bootstrap and learning how to utilize Github.  
+This page was the product of a guided assignment from my time with Geekwise Academy. 
+I'm currently using this as a simple portfolio site.
 
 ## Languages and Frameworks
 1. HTML
