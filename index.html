@@ -161,20 +161,22 @@
         <h3 class="title">Let's get in touch!</h3>
         <div class="row">
           <div class="col form_wrapper">
-            <form>
+            <form   action="https://formspree.io/f/xvonnjkj"
+            method="POST">
               <div class="form-group">
                 <label for="name">Name</label
-                ><input type="text" id="name" class="form-control" />
+                ><input name="name" type="text" id="name" class="form-control" />
                 <span class="input__focus"></span>
               </div>
               <div class="form-group">
                 <label for="emailOne">Email</label>
-                <input type="email" id="emailOne" class="form-control" />
+                <input name="email" type="email" id="emailOne" class="form-control" />
                 <span class="input__focus text-muted"></span>
               </div>
               <div class="form-group">
                 <label for="message">Message</label
                 ><textarea
+                name="message"
                   id="message"
                   cols="30"
                   rows="10"
@@ -182,7 +184,7 @@
                 ></textarea>
                 <span class="input__focus"></span>
               </div>
-              <button class="btn">Submit</button>
+              <button type="submit" class="btn">Submit</button>
             </form>
           </div>
         </div>
